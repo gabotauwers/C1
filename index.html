@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora Android</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section id="calculadora">
+      <div id="subtotal">
+        <label for="subtotal">Subtotal</label>
+        <input type="text" class="subtotal" id="subtotal1" readonly /><br><br>
+        <div id="medio">
+            <input type="text" class="porcentaje" id="porcentaje" pattern="[0-9]" maxlength="3" value="5">
+            <label for="porcentaje">%</label>
+        </div>
+          <label for="total">Total</label>
+          <input type="text" class="total" id="total" readonly /><br><br>
+          <div id="teclas">
+            <button name="numero">1</button>
+            <button name="numero">2</button>
+            <button name="numero">3</button>
+            <button name="operador">+</button> <br />
+            <button name="numero">4</button>
+            <button name="numero">5</button>
+            <button name="numero">6</button>
+            <button name="operador">-</button><br />
+            <button name="numero">7</button>
+            <button name="numero">8</button>
+            <button name="numero">9</button>
+            <button name="borrar" id="igual">C</button><br>
+            <button name="numero">.</button>
+            <button name="numero">0</button>
+            <button name="igual">=</button>
+          </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
